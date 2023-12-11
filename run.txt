@@ -1,0 +1,4 @@
+git clone https://github.com/lockfale/ARF.git
+npm install
+npm start
+python -m http.server 8000
