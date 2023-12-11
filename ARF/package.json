@@ -5,7 +5,7 @@
   "main": "public/index.html",
   "scripts": {
     "postinstall": "copyfiles -f ./node_modules/d3/d3.min.js ./public/js/vendor/d3",
-    "start": "cd ./public; python -m SimpleHTTPServer 8000"
+    "start": "http-server -p 8080"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "devDependencies": {
     "copyfiles": "^1.0.0",
     "d3": "^3.5.16"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 }
